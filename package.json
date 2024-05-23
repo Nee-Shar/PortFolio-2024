@@ -20,7 +20,6 @@
     "react": "^18",
     "react-bootstrap": "^2.10.2",
     "react-dom": "^18",
-    "react-reveal": "^1.2.2",
     "tailwind-merge": "^2.3.0",
     "tailwindcss-animate": "^1.0.7",
     "typewriter-effect": "^2.21.0"

@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 import "../globals.css";
 function Projects() {
   return (

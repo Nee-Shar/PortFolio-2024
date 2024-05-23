@@ -1,13 +1,11 @@
 "use client";
 import React from "react";
-import Zoom from "react-reveal/Zoom";
 function Skills() {
   return (
     <div className="bg-primary-content text-white sm:mx-4  " id="skills">
       <h1 className="mt-4 text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
         <code>Skills</code>
       </h1>
-      <Zoom>
         <div className="mockup-browser border border-base-300 bg-info-content max-w-4xl mx-auto px-4 sm:px-8 sm:mx-auto md:mx-auto w-full  lg:max-w-4xl">
           <div className="mockup-browser-toolbar">
             <div className="input border border-base-300">
@@ -159,7 +157,7 @@ function Skills() {
             </div>
           </div>
         </div>
-      </Zoom>
+      
     </div>
   );
 }

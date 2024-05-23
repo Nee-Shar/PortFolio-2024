@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Typewriter from "typewriter-effect";
-import Zoom from "react-reveal/Zoom";
 function About() {
   return (
     <div id="about">
@@ -9,7 +8,7 @@ function About() {
         <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
           <code>About Me</code>
         </h1>
-        <Zoom>
+       
           <li>
             <div className="timeline-middle">
               <svg
@@ -51,8 +50,7 @@ function About() {
             </div>
             <hr />
           </li>
-        </Zoom>
-        <Zoom>
+        
           <li>
             <hr />
             <div className="timeline-middle">
@@ -95,8 +93,7 @@ function About() {
             </div>
             <hr />
           </li>
-        </Zoom>
-        <Zoom>
+        
           <li>
             <hr />
             <div className="timeline-middle">
@@ -142,7 +139,7 @@ function About() {
             </div>
             <hr />
           </li>
-        </Zoom>
+     
       </ul>
     </div>
   );

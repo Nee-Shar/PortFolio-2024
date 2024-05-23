@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 
-import Zoom from "react-reveal";
 function Contacts() {
   return (
     // <div className="bg-primary-content text-white mt-6 " id="contact">
@@ -25,7 +24,7 @@ function Contacts() {
     <div id="contact">
       <div className="hero min-h-screen text-white">
         <div className="hero-content flex-col lg:flex-row">
-          <Zoom>
+         
             <div className="mockup-phone border-info w-full lg:w-auto max-w-xs lg:max-w-none mx-auto lg:mx-0 ">
               <div className="camera"></div>
               <div className="display">
@@ -254,7 +253,7 @@ function Contacts() {
                 </div>
               </div>
             </div>
-          </Zoom>
+         
           <div>
             <h1 className="text-4xl font-bold ml-2 text-center">
               <code>Leave A Message</code>
