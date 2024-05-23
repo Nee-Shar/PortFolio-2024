@@ -55,6 +55,7 @@ function Projects() {
                       <a className="tooltip" data-tip="Supabase">
                         <img
                           src="/supabase-logo-icon.svg"
+                          alt="Supabase"
                           className="h-10 w-10"
                         />
                       </a>
@@ -83,6 +84,7 @@ function Projects() {
                     <li>
                       <a className="tooltip" data-tip="Vite">
                         <img
+                          alt="Vite"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Vitejs-logo.svg/2078px-Vitejs-logo.svg.png"
                           className="h-10 w-10"
                         />
@@ -305,6 +307,7 @@ function Projects() {
                     <li>
                       <a className="tooltip" data-tip="Axios">
                         <img
+                          alt="axios"
                           src="https://axios-http.com/assets/logo.svg"
                           className="h-12 w-12"
                         ></img>
@@ -387,6 +390,7 @@ function Projects() {
                     <li>
                       <a className="tooltip" data-tip="Jupyter">
                         <img
+                          alt="jupyter"
                           src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/883px-Jupyter_logo.svg.png"
                           className="h-10 w-10"
                         ></img>

@@ -70,7 +70,7 @@ function Navbar() {
               >
                 <div className="w-10 rounded-full">
                   <img
-                    alt="Tailwind CSS Navbar component"
+                    alt="Nee-Shar"
                     src="https://avatars.githubusercontent.com/u/99169026?v=4"
                   />
                 </div>

@@ -7,6 +7,7 @@ function Hero() {
     <div className="hero min-h-screen bg-primary-content text-white">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
+          alt="animation"
           src="hand-coding-animate.svg"
           className="max-w-sm rounded-lg shadow-2xl"
         />
