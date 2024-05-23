@@ -20,12 +20,12 @@ function Projects() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="card-title text-4xl">
-                    <code>Password Manager</code>
+                  <h2 className="card-title  text-4xl">
+                    <code className="mx-auto">Password Manager</code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal bg-base-200 rounded-box mt-2">
-                    <li>
+                  <ul className="menu menu-horizontal  rounded-box mt-2">
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="React">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Supabase">
                         <img
                           src="/supabase-logo-icon.svg"
@@ -60,7 +60,7 @@ function Projects() {
                         />
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Bootstrap">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Vite">
                         <img
                           alt="Vite"
@@ -117,12 +117,12 @@ function Projects() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="  card-title text-2xl">
-                    <code className="text-center">Time Tracker Extension</code>
+                  <h2 className="  card-title text-3xl">
+                    <code className="mx-auto">Time Tracker Extension</code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal bg-base-200 rounded-box mt-2">
-                    <li>
+                  <ul className="menu menu-horizontal  rounded-box mt-2">
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Python">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -143,7 +143,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="MySQL">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -184,7 +184,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Bootstrap">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -205,7 +205,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Js">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -250,14 +250,12 @@ function Projects() {
                   />
                 </figure>
                 <div className="card-body">
-                  <h2 className="  card-title text-1xl">
-                    <code className="text-center">
-                      Github Profile Visualizer
-                    </code>
+                  <h2 className="  card-title text-3xl">
+                    <code className="mx-auto">Github Profile Visualizer</code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal bg-base-200 rounded-box mt-2">
-                    <li>
+                  <ul className="menu menu-horizontal  rounded-box mt-2">
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="React">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -283,7 +281,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Bootstrap">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -304,7 +302,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Axios">
                         <img
                           alt="axios"
@@ -313,7 +311,7 @@ function Projects() {
                         ></img>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Js">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -355,18 +353,18 @@ function Projects() {
                   <img
                     src="/retail-markdown-animate.svg"
                     alt="car!"
-                    style={{ height: "220px", width: "auto" }}
+                    style={{ height: "260px", width: "auto" }}
                   />
                 </figure>
                 <div className="card-body">
                   <h2 className="  card-title text-1xl">
-                    <code className="text-center">
+                    <code className="mx-auto">
                       Dark Patterns in E-Commerce Detection
                     </code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal bg-base-200 rounded-box mt-2">
-                    <li>
+                  <ul className="menu menu-horizontal bg-danger-content rounded-box mt-2">
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Python">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -387,7 +385,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Jupyter">
                         <img
                           alt="jupyter"
@@ -396,7 +394,7 @@ function Projects() {
                         ></img>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="HTML">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -444,7 +442,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li>
+                    <li className="mx-3">
                       <a className="tooltip" data-tip="Js">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
