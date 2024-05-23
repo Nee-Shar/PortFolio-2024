@@ -24,8 +24,8 @@ function Projects() {
                     <code className="mx-auto">Password Manager</code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal  rounded-box mt-2">
-                    <li className="mx-3">
+                  <ul className="menu menu-horizontal menu-sm  rounded-box mt-2">
+                    <li className="mx-auto">
                       <a className="tooltip" data-tip="React">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -51,7 +51,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li className="mx-3">
+                    <li className="mx-auto">
                       <a className="tooltip" data-tip="Supabase">
                         <img
                           src="/supabase-logo-icon.svg"
@@ -60,7 +60,7 @@ function Projects() {
                         />
                       </a>
                     </li>
-                    <li className="mx-3">
+                    <li className="mx-auto">
                       <a className="tooltip" data-tip="Bootstrap">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ function Projects() {
                         </svg>
                       </a>
                     </li>
-                    <li className="mx-3">
+                    <li className="mx-auto">
                       <a className="tooltip" data-tip="Vite">
                         <img
                           alt="Vite"
@@ -121,7 +121,7 @@ function Projects() {
                     <code className="mx-auto">Time Tracker Extension</code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal  rounded-box mt-2">
+                  <ul className="menu menu-horizontal menu-sm  rounded-box mt-2">
                     <li className="mx-3">
                       <a className="tooltip" data-tip="Python">
                         <svg
@@ -254,7 +254,7 @@ function Projects() {
                     <code className="mx-auto">Github Profile Visualizer</code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal  rounded-box mt-2">
+                  <ul className="menu menu-horizontal menu-sm  rounded-box mt-2">
                     <li className="mx-3">
                       <a className="tooltip" data-tip="React">
                         <svg
@@ -363,7 +363,7 @@ function Projects() {
                     </code>
                   </h2>
                   <span className="text-center">Tech Stack Used</span>
-                  <ul className="menu menu-horizontal bg-danger-content rounded-box mt-2">
+                  <ul className="menu menu-horizontal menu-sm bg-danger-content rounded-box mt-2">
                     <li className="mx-3">
                       <a className="tooltip" data-tip="Python">
                         <svg
