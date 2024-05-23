@@ -256,7 +256,16 @@ function Contacts() {
             </h1>
             <p className="py-6 text-center">
               <div className="card shrink-0 w-full max-w-sm shadow-2xl bg--base-100 ">
-                <form className="card-body">
+                <form
+                  className="card-body"
+                  onSubmit={(e) => {
+                    e.preventDefault();
+                    var email =
+                      document.querySelector("input[type='text']").value;
+                    var message = document.querySelector("textarea").value;
+                    alert("Dear @" + email + " your message is sent");
+                  }}
+                >
                   <div className="form-control">
                     <label className="input input-bordered input-info flex items-center gap-2">
                       <svg
@@ -289,7 +298,7 @@ function Contacts() {
       </div>
       <footer className="footer footer-center p-4 bg-primary-content text-base-content">
         <aside>
-          <p>Copyright © 2024 - Made with ❣️ by Nee-Shar</p>
+          <p>Copyright © 2024 - Made with ❤️‍🩹 by Nee-Shar</p>
         </aside>
       </footer>
     </div>

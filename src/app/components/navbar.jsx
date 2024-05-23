@@ -24,7 +24,7 @@ function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-sm  dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               <li>
                 <a href="#about">About</a>
@@ -44,19 +44,27 @@ function Navbar() {
             Nee-Shar
           </a>
         </div>
-        <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+        <div className="navbar-center hidden lg:flex ">
+          <ul className="menu menu-horizontal px-1 text-2xl ">
             <li>
-              <a href="#about">About</a>
+              <a href="#about">
+                <code>About</code>
+              </a>
             </li>
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills">
+                <code>Skills</code>
+              </a>
             </li>
             <li>
-              <a href="#projects">Projects</a>
+              <a href="#projects">
+                <code>Projects</code>
+              </a>
             </li>
             <li>
-              <a href="#contact">Contact</a>
+              <a href="#contact">
+                <code>Contact</code>
+              </a>
             </li>
           </ul>
         </div>
