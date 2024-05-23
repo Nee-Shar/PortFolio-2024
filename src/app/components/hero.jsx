@@ -25,7 +25,7 @@ function Hero() {
           </h1>
           <p className="py-6 text-1xl">
             <blockquote className="italic">
-              Hi, I'm Neeraj Sharma, a full stack web developer—can't fix your
+              Hi, I am Neeraj Sharma, a full stack web developer—cant fix your
               Wi-Fi, but can definitely make your website run like a charm.
             </blockquote>
           </p>
