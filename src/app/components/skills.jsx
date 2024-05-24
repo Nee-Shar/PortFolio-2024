@@ -8,7 +8,10 @@ function Skills() {
       </h1>
       <div className="mockup-browser border border-info  max-w-4xl mx-auto px-4 sm:px-8 sm:mx-auto md:mx-auto w-full  lg:max-w-4xl">
         <div className="mockup-browser-toolbar">
-          <div className=" mx-auto  bg-black ">
+          <div
+            className=" mx-auto sm:mx-2 input "
+            style={{ backgroundColor: "black" }}
+          >
             <code className="text-white ">https://nee-shar.com/skills</code>
           </div>
         </div>

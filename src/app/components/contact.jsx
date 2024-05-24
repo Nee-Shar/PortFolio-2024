@@ -1,7 +1,27 @@
 "use client";
 import React from "react";
-
+import { useEffect, useState } from "react";
 function Contacts() {
+  const [joke, setJoke] = useState(" ");
+
+  useEffect(() => {
+    async function getJokes() {
+      fetch(
+        "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
+      )
+        .then((response) => response.json())
+        .then((data) => {
+          // console.log(data.joke);
+          if (data.joke && data.joke.length < 150) setJoke(data.joke);
+        })
+        .catch((error) => {
+          console.error("Error fetching the joke:", error);
+          //document.getElementById("joke").innerHTML = "Failed to load joke.";
+        });
+    }
+    getJokes();
+  }, []);
+
   return (
     <div id="contact">
       <div className="hero min-h-screen text-black">
@@ -285,6 +305,9 @@ function Contacts() {
       <footer className="footer footer-center p-4  text-base-content">
         <aside>
           <p>Copyright © 2024 - Made with ❤️‍🩹 by Nee-Shar</p>
+          <p className="sm:text-xs" id="joke">
+            {joke}
+          </p>
         </aside>
       </footer>
     </div>
