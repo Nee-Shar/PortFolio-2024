@@ -4,12 +4,12 @@ import React from "react";
 function Contacts() {
   return (
     <div id="contact">
-      <div className="hero min-h-screen text-white">
+      <div className="hero min-h-screen text-black">
         <div className="hero-content flex-col lg:flex-row">
           <div className="mockup-phone border-info w-full lg:w-auto max-w-xs lg:max-w-none mx-auto lg:mx-0 ">
             <div className="camera"></div>
             <div className="display">
-              <div className="artboard artboard-demo phone-1 text-white">
+              <div className="artboard artboard-demo phone-1 bg-slate-100 text-black">
                 <h3 className="text-3xl mt-2 mb-2">
                   <code className="mx-auto">LETS CONNECT</code>
                 </h3>
@@ -233,7 +233,7 @@ function Contacts() {
           </div>
 
           <div>
-            <h1 className="text-4xl font-bold ml-2 text-center">
+            <h1 className="text-4xl font-bold ml-2 text-center text-white">
               <code>Leave A Message</code>
             </h1>
             <p className="py-6 text-center">
@@ -249,7 +249,7 @@ function Contacts() {
                   }}
                 >
                   <div className="form-control">
-                    <label className="input input-bordered input-info flex items-center gap-2">
+                    <label className="input input-bordered input-info bg-white flex items-center gap-2">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 16 16"
@@ -259,14 +259,18 @@ function Contacts() {
                         <path d="M2.5 3A1.5 1.5 0 0 0 1 4.5v.793c.026.009.051.02.076.032L7.674 8.51c.206.1.446.1.652 0l6.598-3.185A.755.755 0 0 1 15 5.293V4.5A1.5 1.5 0 0 0 13.5 3h-11Z" />
                         <path d="M15 6.954 8.978 9.86a2.25 2.25 0 0 1-1.956 0L1 6.954V11.5A1.5 1.5 0 0 0 2.5 13h11a1.5 1.5 0 0 0 1.5-1.5V6.954Z" />
                       </svg>
-                      <input type="text" className="grow" placeholder="Email" />
+                      <input
+                        type="text"
+                        className="text-black"
+                        placeholder="Email"
+                      />
                     </label>
                   </div>
                   <div className="form-control mt-4">
                     <textarea
                       placeholder="Any Queries/Suggestion"
                       rows="4"
-                      className="textarea textarea-primary w-full max-w-xs"
+                      className="textarea textarea-primary w-full max-w-xs bg-white"
                     />
                   </div>
                   <div className="form-control mt-6">
