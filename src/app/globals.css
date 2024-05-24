@@ -70,17 +70,12 @@
   * {
     @apply border-border;
   }
-  body {
-    @apply bg-background text-foreground;
-  }
 }
 body {
   background-color: rgb(5 6 23);
   overflow-x: hidden;
 }
-body.night {
-  background-color: rgb(222 222 222);
-}
+
 .card-hover {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }

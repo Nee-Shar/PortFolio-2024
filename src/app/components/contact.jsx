@@ -3,24 +3,6 @@ import React from "react";
 
 function Contacts() {
   return (
-    // <div className="bg-primary-content text-white mt-6 " id="contact">
-    //   <div className="hero min-h-screen bg-base-200">
-    //     <div className="hero-content text-center">
-    //       <div className="max-w-md">
-    //         <h1 className="text-5xl font-bold">Hello there</h1>
-    //         <p className="py-6">
-    //           <div className="mockup-phone border-primary">
-    //             <div className="camera"></div>
-    //             <div className="display">
-    //               <div className="artboard artboard-demo phone-1">Hi.</div>
-    //             </div>
-    //           </div>
-    //         </p>
-    //         <button className="btn btn-primary">Get Started</button>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
     <div id="contact">
       <div className="hero min-h-screen text-white">
         <div className="hero-content flex-col lg:flex-row">
@@ -31,7 +13,7 @@ function Contacts() {
                 <h3 className="text-3xl mt-2 mb-2">
                   <code className="mx-auto">LETS CONNECT</code>
                 </h3>
-                <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                   <div className="sm:max-auto">
                     <a
                       href="https://www.linkedin.com/in/neeraj-sharma-958528224/"
