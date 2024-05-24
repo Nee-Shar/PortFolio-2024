@@ -3,7 +3,7 @@ import React from "react";
 import "../globals.css";
 function Projects() {
   return (
-    <div className="bg-primary-content text-white mt-6 " id="projects">
+    <div className=" text-white mt-6 " id="projects">
       <h1 className="mt-6 text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
         <code>Projects</code>
       </h1>

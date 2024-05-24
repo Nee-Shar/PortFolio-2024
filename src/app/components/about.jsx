@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 function About() {
   return (
     <div id="about">
-      <ul className="timeline timeline-snap-icon sm:timeline-compact timeline-vertical bg-primary-content text-white mb-5">
+      <ul className="timeline timeline-snap-icon sm:timeline-compact timeline-vertical  text-white mb-5">
         <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-6">
           <code>About Me</code>
         </h1>

@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
-    <div className="hero min-h-screen bg-primary-content text-white">
+    <div className="hero min-h-screen text-white">
       <div className="hero-content flex-col lg:flex-row-reverse">
         <img
           alt="animation"

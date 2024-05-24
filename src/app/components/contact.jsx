@@ -278,7 +278,7 @@ function Contacts() {
           </div>
         </div>
       </div>
-      <footer className="footer footer-center p-4 bg-primary-content text-base-content">
+      <footer className="footer footer-center p-4  text-base-content">
         <aside>
           <p>Copyright © 2024 - Made with ❤️‍🩹 by Nee-Shar</p>
         </aside>
