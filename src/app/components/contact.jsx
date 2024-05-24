@@ -305,6 +305,7 @@ function Contacts() {
       <footer className="footer footer-center p-4  text-base-content">
         <aside>
           <p>Copyright © 2024 - Made with ❤️‍🩹 by Nee-Shar</p>
+
           <p className="sm:text-xs" id="joke">
             {joke}
           </p>
