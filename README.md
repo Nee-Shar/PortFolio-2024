@@ -1,5 +1,12 @@
 # Portfolio
 
+
+Website Link - <a href='https://nee-shar.netlify.app/'>💻</a>
+
+Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/283e6966-32a9-43a5-b274-b4af6d06ee0e/deploy-status)]
+
+
+
 Welcome to my personal portfolio! This project showcases my skills, projects, and professional experience using React and Next.js. Feel free to explore and learn more about my work.
 
 ## Table of Contents
@@ -100,7 +107,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Your Name - Neeraj Sharma [neeraj716sharma.com](mailto:neeraj716sharma@gmail.com)
 
-Website Link - <a href='https://nee-shar.netlify.app/'>💻</a>
-
-Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/283e6966-32a9-43a5-b274-b4af6d06ee0e/deploy-status)]
 ```
