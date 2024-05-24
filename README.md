@@ -98,7 +98,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [your-email@example.com](mailto:your-email@example.com)
+Your Name - Neeraj Sharma [neeraj716sharma.com](mailto:neeraj716sharma@gmail.com)
 
-Project Link: [https://github.com/your-username/portfolio](https://github.com/your-username/portfolio)
+Website Link - <a href='https://nee-shar.netlify.app/'>💻</a>
+
+Status : [![Netlify Status](https://api.netlify.com/api/v1/badges/283e6966-32a9-43a5-b274-b4af6d06ee0e/deploy-status)]
 ```
