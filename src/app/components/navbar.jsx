@@ -79,7 +79,7 @@ function Navbar() {
                 <div className="w-10 rounded-full">
                   <img
                     alt="Nee-Shar"
-                    src="https://avatars.githubusercontent.com/u/99169026?v=4"
+                    src="https://media.licdn.com/dms/image/D5603AQFdF_C4ZlPJYg/profile-displayphoto-shrink_800_800/0/1712575542764?e=1721865600&v=beta&t=nZ91SZEZgcOnQdWpGzVvXRDNcJaC85pUxOrJZj1nGe4"
                   />
                 </div>
               </div>
