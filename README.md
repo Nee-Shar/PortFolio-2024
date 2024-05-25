@@ -29,7 +29,6 @@ This portfolio is designed to highlight my professional background, skills, and 
 
 - **Responsive Design**: Works on all devices, from mobile to desktop.
 - **Project Showcase**: Display your projects with descriptions, images, and links.
-- **Blog Section**: Share your thoughts and insights through blog posts.
 - **Contact Form**: Allow visitors to get in touch with you easily.
 
 ## Technologies Used
@@ -37,7 +36,7 @@ This portfolio is designed to highlight my professional background, skills, and 
 - **React**: A JavaScript library for building user interfaces.
 - **Next.js**: A React framework with hybrid static & server rendering, and route pre-fetching.
 - **CSS Modules**: Scoped CSS for styling components.
-- **Markdown**: For blog post content.
+
 
 ## Getting Started
 
@@ -54,7 +53,7 @@ Make sure you have Node.js and npm installed on your machine.
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/your-username/portfolio.git
+   git clone
 ```markdown
 Change to the project directory
 ```sh
@@ -93,11 +92,6 @@ npm start
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
@@ -105,6 +99,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - Neeraj Sharma [neeraj716sharma.com](mailto:neeraj716sharma@gmail.com)
+Name - Neeraj Sharma [neeraj716sharma.com](mailto:neeraj716sharma@gmail.com)
 
 ```
