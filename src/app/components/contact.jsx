@@ -29,9 +29,18 @@ function Contacts() {
           <div className="mockup-phone border-info w-full lg:w-auto max-w-xs lg:max-w-none mx-auto lg:mx-0 ">
             <div className="camera"></div>
             <div className="display">
-              <div className="artboard artboard-demo phone-1 bg-slate-100 text-black">
-                <h3 className="text-3xl mt-2 mb-2">
-                  <code className="mx-auto">LETS CONNECT</code>
+              <div
+                className="artboard artboard-demo phone-1 text-black"
+                style={{
+                  backgroundImage: `url(back-2.jpg)`,
+                  height: "85vh", //
+                  backgroundSize: "cover",
+                  backgroundRepeat: "no-repeat",
+                  opacity: "0.9",
+                }}
+              >
+                <h3 className="text-3xl ">
+                  <code className="mx-auto text-white">LETS CONNECT</code>
                 </h3>
                 <div class="grid grid-cols-1 sm:grid-cols-2  md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4">
                   <div className="sm:max-auto">
@@ -302,7 +311,7 @@ function Contacts() {
           </div>
         </div>
       </div>
-      <footer className="footer footer-center p-4  text-base-content">
+      <footer className="footer footer-center p-4   text-gray-500">
         <aside>
           <p>Copyright © 2024 - Made with ❤️‍🩹 by Nee-Shar</p>
 
