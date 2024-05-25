@@ -105,6 +105,6 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - Neeraj Sharma [neeraj716sharma.com](mailto:neeraj716sharma@gmail.com)
+Name - Neeraj Sharma [neeraj716sharma.com](mailto:neeraj716sharma@gmail.com)
 
 ```
